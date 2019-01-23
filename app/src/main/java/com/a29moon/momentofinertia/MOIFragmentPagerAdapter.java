@@ -25,6 +25,8 @@ public class MOIFragmentPagerAdapter extends FragmentStatePagerAdapter {
      */
     @Override
     public int getCount() {
-        return 0;
+        return 4;
     }
 }
+
+// Rectangular, Circular, Hollow, Curved
