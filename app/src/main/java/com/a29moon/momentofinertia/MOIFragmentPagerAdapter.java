@@ -33,6 +33,29 @@ public class MOIFragmentPagerAdapter extends FragmentStatePagerAdapter {
     public int getCount() {
         return 4;
     }
+
+    /**
+     * This method will set the names for the titles in the PagerTitleStrip
+     * @param position
+     * @return
+     */
+    @Override
+    public CharSequence getPageTitle(int position) {
+        switch (position) {
+            case 0:
+                return "Rectangular";
+            case 1:
+                return "Circular";
+            case 2:
+                return "Hollow";
+            case 3:
+                return "Curved";
+        }
+        return null;
+    }
 }
 
 // Rectangular, Circular, Hollow, Curved
+/*
+    Remember, the PagerAdapter controls everything in your ViewPager from the fragments to the  names of the title strips
+ */
