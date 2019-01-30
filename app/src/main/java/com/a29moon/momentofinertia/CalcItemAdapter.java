@@ -2,7 +2,6 @@ package com.a29moon.momentofinertia;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -10,6 +9,7 @@ import android.widget.TextView;
 
 public class CalcItemAdapter extends RecyclerView.Adapter<CalcItemAdapter.CalcItemViewHolder> {
 
+    /** Incoming dataset that holds objects of each list item calculator */
     private CalcItem[] mDataSet;
 
     @Override

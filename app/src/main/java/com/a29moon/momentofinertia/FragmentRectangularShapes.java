@@ -32,7 +32,7 @@ public class FragmentRectangularShapes extends Fragment {
         CalcItem calcItemData[] = {
                 new CalcItem("Simple Rectangle", "A simple rectangular shape.", 1),
                 new CalcItem("Simple Rectangle 2", "A simple rectangular shape for two.", 2),
-                new CalcItem("Turned Rectangle", "A turned rectangular shape.", 3)
+                new CalcItem("Turned Rectangle", "A turned rectangular shape.", 3),
         };
 
         // Create an Adapter to manage the data

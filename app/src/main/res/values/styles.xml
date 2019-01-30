@@ -20,4 +20,16 @@
         <item name="android:textColor">@color/colorPrimaryDark</item>
     </style>
 
+    <style name="PagerTitleStripStyle">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:elevation">3dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+
+    </style>
+
 </resources>
