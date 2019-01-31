@@ -4,30 +4,39 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
+    android:padding="16dp"
     android:id="@+id/calc_item_linear_layout">
 
     <ImageView
         android:id="@+id/calc_item_thumbnail_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:src="@mipmap/ic_launcher" />
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:radius="12dp"
+        android:src="@drawable/thumb_moi_rectangular_1_vertical_section"/>
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
 
         <TextView
             android:id="@+id/calc_item_title_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:text="Testing" />
+            android:textSize="16sp"
+            tools:text="Testing"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/roboto_bold"
+            android:paddingBottom="8dp"/>
 
         <TextView
             android:id="@+id/calc_item_description_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_regular"
             tools:text="This is a test of the single calc item layout that will be displayed in the item." />
 
     </LinearLayout>

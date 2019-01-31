@@ -31,7 +31,7 @@ public class FragmentRectangularShapes extends Fragment {
         // Create a set of data needed to populate the items in the RecyclerView
         CalcItem calcItemData[] = {
                 new CalcItem("Simple Rectangle", "A simple rectangular shape.", 1),
-                new CalcItem("Simple Rectangle 2", "A simple rectangular shape for two.", 2),
+                new CalcItem("Simple Rectangle 2", "A simple rectangular shape for two. And now we are trying out the two-line description to see how it'll look.", 2),
                 new CalcItem("Turned Rectangle", "A turned rectangular shape.", 3),
         };
 
